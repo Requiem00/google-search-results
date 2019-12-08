@@ -1,80 +1,171 @@
 /*General*/
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+header {
+  background-color: #fefefe;
+  width: 100%;
 }
 
-li{
-    text-decoration: none;
-    float: left;
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
+a {
+  text-decoration: none;
+  /*    color: black;*/
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  display: inline;
+  text-decoration: none;
+}
+
+.right {
+  float: right;
+}
 
 /*Header*/
-
-header {
-    background-color: silver;
-    padding: 10px 16px;
-    position: fixed;
-    right: 0;
-    left: 0;
-    width: 100%;
-}
-
-.navtop {
-    position: fixed;
-    left: 0;
-    width: 100%;
-}
-
-#alpha {
-    float :left;
-    width: 33.%;
-}
-
-
 .search {
-    display: inline-block;
-    border-radius: 25px;
-    padding: 15px;
-    width: 550px;
+  display: inline-block;
+  border-radius: 25px;
+  padding: 15px;
+  width: 550px;
+  margin: 10px;
+}
+
+
+#sign {
+  background-color: #4285f4;
+  color: white;
+  border-radius: 10%;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*Body*/
+
+.body {
+  width: 60%;
+}
+
+#all {
+  color: blue;
+  border-bottom: 5px solid blue;
+}
+
+.navleft {
+  display: inline-block;
+  padding: 10px;
 }
 
 .navright {
-    display: block;
-    padding: 10px;
+  display: inline-block;
+  padding: 10px;
 }
 
-#sign{
-    background-color: #4285f4;
-    color: white;
-    border-radius: 10%;
-    padding-right: 20px;
-    text-align: center;
-    text-decoration: none;
-}
-/*Body*/
-body {
-    background-color: aqua;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 70%;
-    clear: both;
+.nav {
+  padding: 15px;
+  color: black;
 }
 
-nav {
-    padding: 20px;
-    background-color: wheat;
+.nav:hover {
+  color: blue;
 }
+
+H3 {
+  color: blue;
+  font-style: normal;
+  margin: 0;
+  display: inline-block;
+}
+
+H3:hover {
+  border-bottom: 3px solid blue;
+}
+
+.green {
+  margin: 0;
+  color: green;
+}
+
+.hask {
+  font-size: medium;
+  text-align: left;
+  color: black;
+  padding: 10px;
+}
+
+table {
+  display: block;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+tr,
+td {
+  border: 1px solid #fefefe;
+  padding: 10px;
+}
+
+.searches {
+  padding: 10px;
+  display: inline-block;
+}
+
+.webpage {
+  color: black;
+  float: left;
+  text-align: left;
+}
+
+.related {
+  width: 100%;
+  padding: 5px;
+  margin: 0;
+  display: inline-block;
+}
+
+.page {
+  padding: 5px;
+}
+
+
+.page:hover {
+  border-bottom: 1px solid blue;
+}
+
 /*Footer*/
 
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: wheat;
+  background-color: #f2f2f2;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.use {
+  color: black;
+}
+
+.navbot {
+  float: left;
+  color: black;
+  padding: 10px;
 }
